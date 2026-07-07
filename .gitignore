@@ -1,0 +1,37 @@
+# Environment files
+backend/.env
+backend/.env.example
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/src/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Uploads & data
+backend/uploads/
+backend/chromadb_data/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Frontend build
+frontend/dist/
